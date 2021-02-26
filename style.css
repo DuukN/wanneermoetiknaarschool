@@ -1,0 +1,65 @@
+@media (min-aspect-ratio: 1/1) {
+    body {
+        display: grid;
+        grid-template-columns: 50vw 50vw;
+        grid-template-rows: 100vh;
+        font-size: 5vh;
+    }
+}
+
+@media (max-aspect-ratio: 1/1) {
+    body {
+        display: grid;
+        grid-template-columns: 100vw;
+        grid-template-rows: 50vh 50vh;
+        font-size: 3vh;
+    }
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+body>div {
+    text-align: center;
+}
+
+#a {
+    background: radial-gradient( #feebd1, #ebcea4);
+    color: #c34f22;
+}
+
+#b{
+    background: radial-gradient( #e6f4fe, #b3c0d0);
+    color: #004E71;
+}
+
+.letter{
+    font-size: 250%;
+}
+
+#group-a, #group-b {
+    font-size: 250%;
+}
+
+#when-a, #when-b {
+    text-decoration: underline;
+}
+
+/*
+donker blauw #004E71
+licht blauw #6B93A8
+rgb(253, 235, 209) rgb(253, 235, 209); #FDEBD1
+donker rood #c34f22
+
+ja
+background: radial-gradient( #feebd1, #ebcea4);
+
+nee
+background: radial-gradient( #e6f4fe, #b3c0d0);
+ */
